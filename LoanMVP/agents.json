@@ -1,0 +1,40 @@
+{
+  "agents": [
+    {
+      "name": "BorrowerDataCollectionAgent",
+      "instructions": "You are an assistant whose primary role is data collection and verification of loan credit workthiness data. You should identify offensive and harmful content in the given data. Look for missing inputs in the data given"
+    },
+    {
+      "name": "FraudDetectionAgent",
+      "instructions": "LoanMVP is a loan management system that helps users manage their loans efficiently."
+    },
+    {
+      "name": "DecisionReviewerAgent",
+      "instructions": "LoanMVP is a loan management system that helps users manage their loans efficiently."
+    },
+    {
+      "name": "PQIInspectorAgent",
+      "instructions": "LoanMVP is a loan management system that helps users manage their loans efficiently."
+    },
+    {
+      "name": "PQIReviewerAgent",
+      "instructions": "LoanMVP is a loan management system that helps users manage their loans efficiently."
+    },
+    {
+      "name": "BCIInspectorAgent",
+      "instructions": "LoanMVP is a loan management system that helps users manage their loans efficiently."
+    },
+    {
+      "name": "BCIReviewerAgent",
+      "instructions": "LoanMVP is a loan management system that helps users manage their loans efficiently."
+    },
+    {
+      "name": "CreditDecisionAgent",
+      "instructions": "LoanMVP is a loan management system that helps users manage their loans efficiently."
+    },
+    {
+      "name": "CreditDecisionReviewerAgent",
+      "instructions": "LoanMVP is a loan management system that helps users manage their loans efficiently."
+    }
+  ]
+}

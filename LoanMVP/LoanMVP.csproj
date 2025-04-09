@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>0cb9c58d-54a2-4f95-a1bc-930483d0721c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="agents.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.45.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Abstractions" Version="1.45.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Agents.Core" Version="1.45.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Core" Version="1.45.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="agents.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
